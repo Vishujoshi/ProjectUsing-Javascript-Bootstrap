@@ -1,0 +1,188 @@
+body{
+    font-family: "Montserrat";
+    
+}
+#title{
+    background-color: #ff4c68;
+}
+.container-fluid{
+    padding: 3% 15%;
+    
+}
+h1{
+     font-family: 'Montserrat', sans-serif; 
+     font-size: 3.5rem; 
+     line-height: 1.5; 
+     font-weight: 900;
+     color: white;
+     
+}
+.navbar{
+    padding-bottom: 4.5rem;
+    scroll-behavior: smooth;
+}
+.navbar-brand{
+    font-size: 2.5rem;
+    font-family: "Ubuntu";
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat-light";
+}
+.download-btn{
+    margin: 5% 3% 0 0;
+}
+
+/* title image */
+.positioning{
+
+  position: relative;
+
+}
+.title-image{
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+    
+}
+#features{
+    background-color: #fff;
+    padding: 7% 15%;
+    position: relative;
+    z-index: 1;
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+    
+}
+h3{
+    font-family: "Montserrat-Black";
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+p{
+    color: grey;
+}
+.icon{
+    color: #ef8172;
+    padding-bottom: 1rem;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+
+#testimonials{
+    
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+    
+}
+.carousel-item{
+padding: 7% 15%;
+
+}
+
+h2{
+    font-family: "Montserrat-Bold";
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.price-box{
+    padding: 3% 2%;
+    
+}
+#cta{
+    background-color: #ff4c68;
+    padding: 7% 18%;
+    text-align: center;
+}
+#cta h3{
+    font-family: "Montserrat-Black";
+    font-size: 4rem;
+    line-height: 1.5;
+    font-weight: 900;
+    color: #fff;
+}
+#footer{
+    padding: 3% 15%;
+    text-align: center;
+}
+.footer-icon{
+    margin-right: 10px;
+}
+.footer-icon:hover{
+    color: #ff4c68;
+}
+footer p{
+    font-size: 20px;
+}
+
+
+
+
+
+@media(max-width:1028px){
+
+    .title-image{
+    
+    transform: rotate(0deg);
+    position: static;
+    text-align: center;
+    
+    
+}
+
+
+#title{
+    
+    text-align: center;
+}
+h1{
+     
+     font-size: 2rem; 
+     
+     
+}
+h2{
+    
+    font-size: 1.5rem;
+    
+}
+#pricing{
+    padding: 20px;
+}
+#cta{
+    padding: 20px;
+    
+}
+#cta h3{
+font-size: 2rem;
+}
+}

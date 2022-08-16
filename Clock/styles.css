@@ -1,0 +1,21 @@
+body{
+ background-color: cornsilk;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 150px;
+    color: rgb(51, 75, 153);
+    
+}
+#container{
+    text-align: center;
+    border: 1px solid black;
+    align-items: center;
+    justify-content: center;
+    padding: 40px ;
+    background-color: black;
+    border-radius: 220px;
+    box-shadow: 2px 3px 4px;
+    margin: 180px auto;
+    font-size: 50px;
+    
+}
